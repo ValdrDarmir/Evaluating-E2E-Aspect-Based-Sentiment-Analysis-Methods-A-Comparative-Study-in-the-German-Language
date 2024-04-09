@@ -1,0 +1,39 @@
+{
+    "name": "extract_aspects_and_polarities",
+    "description": "Extrahieren von Aspekten und Polaritäten aus einem Text",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "Aspekte": {
+                "type": "array",
+                "description": "Ein Array von Aspekten und ihren Polaritäten. Wenn keine Aspekte im Text erwähnt werden, verwenden ein leeres Array.",
+                "minItems": 0,
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "Term": {
+                            "type": "string",
+                            "description": "Ein Aspektbegriff, der ein wortwörtlicher Textausschnitt ist. Einzel- oder Mehrwortbegriffe, die bestimmte Aspekte der Dienstleistung benennen."
+                        },
+                        "Polarität": {
+                            "type": "string",
+                            "enum": [
+                                "positive",
+                                "neutral",
+                                "negative"
+                            ],
+                            "description": "Die Polarität, die gegenüber dem Aspektbegriff ausgedrückt wird. Gültige Polaritäten sind 'positive', 'neutral', 'negative'."
+                        }
+                    },
+                    "required": [
+                        "Term",
+                        "Polarität"
+                    ]
+                }
+            }
+        },
+        "required": [
+            "Aspekte"
+        ]
+    }
+}

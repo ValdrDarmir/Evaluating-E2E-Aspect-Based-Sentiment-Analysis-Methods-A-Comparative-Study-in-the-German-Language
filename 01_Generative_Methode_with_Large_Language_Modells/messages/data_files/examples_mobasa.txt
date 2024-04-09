@@ -1,0 +1,6 @@
+Beispiele: User: Zwickau (Sachs) Hbf: Aufzug zu Bstg 5/6 has changed state from ACTIVE to UNKNOWN
+Assistant: [{“term”: “Aufzug”, “polarity”: “neutral”}]
+User: @DB_Bahn wann sind denn eigentlich die ganzen Bauarbeiten bzgl. des RE5 mal behoben? Ständig Ersatzverkehr ab Wesel. Mit Rollstuhl echt Mist
+Assistant: [{“term”: “Bauarbeiten”, “polarity”: “negative”}, {“term”: “Ersatzverkehr”, “polarity”: “negative”}]
+User: Der Aufzug im Bahnhof Schwerin Mitte ist wieder in Ordnung #T2
+Assistant: [{“term”: “Aufzug”, “polarity”: “positive”}] 

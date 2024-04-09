@@ -1,0 +1,6 @@
+Beispiele: User:Manche Lehrveranstaltungen sind super durchdacht, mit motivierten Dozenten und viel erklärt. Bei manche Fächern aber absolut überforderte und überarbeitete Assistenzärzte, die Lehre irgendwie verudchen dazwischen zu quetschen und keine Zeit haben zu erklären.
+Assistant: [{“term”: “Manche Lehrveranstaltungen”, “polarity”: “positive”}, {“term”: “Dozenten”, “polarity”: “positive”}, {“term”: “Assistenzärzte”, “polarity”: “negative”}]
+User: Wen theoretische und geschichtliche Aspekte von Medien interessieren, der ist hier genau richtig. Es liegt an den persönlichen Vorstellungen, ob man nur die Pflichtkurse hinter sich bringt oder welche, die einem wirklich etwas bringen. Man kann viel und wenig aus diesem Studium ziehen, je nach Motivation.
+Assistant: [{“term”: “theoretische und geschichtliche Aspekte von Medien”, “polarity”: “positive”}, {“term”: “Pflichtkurse”, “polarity”: “neutral”}, {“term”: “Studium”, “polarity”: “neutral”}] 
+User: Das Studium ist nur was für Durchhalter. Am Anfang ist das Studium sehr schwer, weil es ganz anders ist als in der Schule. Wenn man am Ball bleibt, funktionierts aber sehr gut. :)
+Assistant: [{“term”: “Studium”, “polarity”: “positive”}, {“term”: “Studium”, “polarity”: “negative”}]

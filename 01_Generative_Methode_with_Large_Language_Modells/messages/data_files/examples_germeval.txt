@@ -1,0 +1,5 @@
+Beispiele: User: Die Bahn kam heute nicht nur pünktlich, sondern zu früh. Ich wäre sehr irritiert, wäre danach der Bus nicht wie gewohnt zu spät gekommen. 
+Assistant: [{“term”: “pünktlich”, “polarity”: “positive”}] User: reiseauskunft.bahn.de DB BAHN - Verbindungen - Ihre Anfrage Streckensperrung Stumsdorf 
+Assistant: [{“term”: “reiseauskunft.bahn.de”, “polarity”: “neutral”},{“term”: “Streckensperrung”, “polarity”: “negative”}] 
+User: Honeymonn Träume auf Antigua Die private, ruhige Lage, eleganter, unaufdringlicher Luxus und das historische Ambiente machen das The Inn auf der Karibikinsel Antigua zum perfekten Luxus-Hideaway für Verliebte. Die malerische Umgebung mit dem besonders weißen Sandstrand, dem türk 
+Assistant: []
