@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Documents>
+    <Document id="http://twitter.com/02dilemaRD/statuses/600583497380573184">
+        <Opinions>
+            <Opinion category="Allgemein#Haupt" from="0" to="6" target="Streik" polarity="negative" />
+            <Opinion category="Allgemein#Haupt" from="26" to="32" target="Streik" polarity="negative" />
+        </Opinions>
+        <relevance>true</relevance>
+        <sentiment>negative</sentiment>
+        <text>Streik der GDL: Bahn will Streik in letzter Minute verhindern: ...</text>
+    </Document>
+    <Document id="http://www.msn.com/de-de/wetter/topgeschichten/unwetter-bilanz-65255-blitze-in-24-stunden-%c3%bcber-nrw/ar-AAcBBsA">
+        <Opinions>
+            <Opinion category="Sonstige_Unregelmässigkeiten#Haupt" from="58" to="67" target="Ausfällen" polarity="negative" />
+            <Opinion category="Sonstige_Unregelmässigkeiten#Haupt" from="72" to="90" target="Beeinträchtigungen" polarity="negative" />
+            <Opinion category="Sonstige_Unregelmässigkeiten#Haupt" from="162" to="186" target="Oberleitungen beschädigt" polarity="negative" />
+            <Opinion category="Sonstige_Unregelmässigkeiten#Haupt" from="195" to="213" target="Schienen blockiert" polarity="negative" />
+        </Opinions>
+        <relevance>true</relevance>
+        <sentiment>negative</sentiment>
+        <text>Unwetter-Bilanz: 65.255 Blitze in 24 Stunden über NRW mit Ausfällen und Beeinträchtigungen rechnen. Umstürzende Bäume hatten der Bahn zufolge an vielen Orten die Oberleitungen beschädigt und die Schienen blockiert. Die Einsatzkräfte seien mit Hochdruck dabei, die Strecken zu räumen und beschädigte</text>
+    </Document>
+</Documents>
