@@ -19,7 +19,7 @@ Overall, our work provides insights into the effectiveness of individual methods
 
 
 
-## 01 Generative Method with Large Language Modells
+## 01 Generative Method with Large Language Modells [1]
 
 **Requirements:**
 - openai 0.28.0
@@ -51,7 +51,7 @@ Evaluate the model:
 ```bash
 python evaluate.py
 ```
-## 02 Relational Graph Attention Network
+## 02 Relational Graph Attention Network [2]
 
 **Requirements:**
 
@@ -88,7 +88,7 @@ Run this command to train and evaluate the model.
 python run.py --gat_bert --embedding_type bert --output_dir data/output-gcn --dropout 0.3 --hidden_size 200 --learning_rate 5e-5
 ```
 
-## 03 Aspect-specific Graph Convolutional Network
+## 03 Aspect-specific Graph Convolutional Network [3]
 
 **Requirements**
 
