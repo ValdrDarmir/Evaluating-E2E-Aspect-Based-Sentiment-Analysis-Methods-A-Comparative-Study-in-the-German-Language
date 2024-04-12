@@ -143,7 +143,7 @@ python main.py
 
 ## Corpora 
 
-We have included dummy corpora that show the structure of the respective corpora used for each model (This is because we do not have legal rights to distribute the corpora.). 
+We have included dummy corpora that show the structure of the respective corpora used for each model (This is because we do not have legal rights to distribute the corpora). 
 If you want to train your own corpora, the corresponding position in the code must be adapted.
 
 - 01 Generative Method with Large Language Models
