@@ -2,11 +2,9 @@
 
 ## Abstract
 
-There are various tasks to be solved in the area of aspect-based sen-
-timent analysis (ABSA). These include the end-to-end ABSA task,
+There are various tasks to be solved in the area of aspect-based sentiment analysis (ABSA). These include the end-to-end ABSA task,
 aspect-opinion pair extraction, aspect category sentiment analysis
-and more. Specifically, in the end-to-end task, aspect pairs consist-
-ing of aspect term and polarity are determined. There are many
+and more. Specifically, in the end-to-end task, aspect pairs consisting of aspect term and polarity are determined. There are many
 methods in the English language that accomplish this task. In other
 languages, such as German, such methods tend to be less analyzed
 or evaluated. For this reason, we evaluated the performance of
