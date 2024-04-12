@@ -1,5 +1,24 @@
 # Evaluating-E2E-Aspect-Based-Sentiment-Analysis-Methods-A-Comparative-Study-in-the-German-Language
 
+## Abstract
+
+There are various tasks to be solved in the area of aspect-based sentiment analysis (ABSA). 
+These include the end-to-end (E2E) ABSA task, aspect-opinion pair extraction, aspect category sentiment analysis and more.
+Specifically, in the E2E task, aspect pairs consisting of aspect term and polarity are determined.
+There are many methods in the English language that accomplish this task. 
+In other languages, such as German, such methods tend to be less analyzed or evaluated. 
+For this reason, we evaluated the performance of existing English aspect-based sentiment analysis methods in the German language.
+We selected three different methods, two graph neural network methods and a generative transformer method, and trained and evaluated them with two corpora, namely GermEval 2017 and MobASA.
+The graph-based approaches are a graph convolution network and a graph attention network.
+The generative method is based on OpenAI GPT 3.5 and uses text-to-text sentence completion.
+The best model (graph attention network) achieved an F1-score of 70.05 \% and 74.35 \% on GermEval 2017 and MobASA.
+The other graph-based method, the graph convolution network, achieved an F1-score of 57.28 \% and 72.14 \% on GermEval 2017 and MobASA.
+The weakest method did achieve an F1-score of 23.58 \% and 27.00 \% on GermEval 2017 and MobASA.
+While the generative transformer method with GPT 3.5 performed comparably worse than the benchmark in the paper by Simmering and Huoviala (2023) the graph neural network models consistently achieved state-of-the-art results.
+Overall, our work provides insights into the effectiveness of individual methods in this domain.
+
+
+
 ## 01 Generative Method with Large Language Modells
 
 **Requirements:**
@@ -7,11 +26,11 @@
 
 **Usage:**
 
-- Create a config.py file in the same folder as 01/main.py 
+- Create a config.py file in the same folder as *01/main.py* 
 - Create a variable with ```API_KEY = "YOUR_OPENAI_KEY"```
 
 Run the model:
-- Exchange the prompts and json file in the main.py (optional):
+- Exchange the prompts and json file in the *main.py* (optional):
     - Change ```json_file``` in ```loadFunction()``` for a new json output schema.
     - Change the ```prompt``` in ```loadPrompt()```for a new prompt.
 
@@ -19,15 +38,15 @@ Run the model:
     - Exchange the corpus in the variable ```name_list``` in the function  ```def chatGPTcall()```
     - Exchange the Model parameter (for example ```model``` or
                     ```temperature```) in ```def chatGPTcall()```
-- Run main.py
+- Run *main.py*
 
 ```bash
 python main.py 
 ``` 
 
 Evaluate the model:
-- Add the used corpus as the variable to ```xml_file_name = "Your_Corpus.xml"``` for the evaluation in evaluate.py
-- Run evaluate.py
+- Add the used corpus as the variable to ```xml_file_name = "Your_Corpus.xml"``` for the evaluation in *evaluate.py*
+- Run *evaluate.py*
 
 ```bash
 python evaluate.py
@@ -38,7 +57,7 @@ python evaluate.py
 
 - Python 3.6.8
 - PyTorch 1.2.0
-- Transformers https://github.com/huggingface/transformers
+- [Transformers](https://github.com/huggingface/transformers)
 - CUDA 9.0
 
 **Usage:**
@@ -69,7 +88,7 @@ Run this command to train and evaluate the model.
 python run.py --gat_bert --embedding_type bert --output_dir data/output-gcn --dropout 0.3 --hidden_size 200 --learning_rate 5e-5
 ```
 
-## 03 Aspectspecific Graph Convolutional Network
+## 03 Aspect-specific Graph Convolutional Network
 
 **Requirements**
 
@@ -122,6 +141,18 @@ python train.py --model_name asgcn --dataset germeval --save True
 ```bash
 python main.py
 ```
+
+## Corpora 
+
+We have included dummy corpora that show the structure of the respective corpora used for each model (This is because we do not have legal rights to distribute the corpora.). 
+If you want to train your own corpora, the corresponding position in the code must be adapted.
+
+- 01 Generative Method with Large Language Models
+    - Update your corpora in the *input* folder.
+- 02 Relational Graph Attention Network
+    - Update your corpora in the *data/germeval* or *data/mobasa* folder. 
+- 03 Aspect-specific Graph Convolutional Network
+    - Update your corpora in the *datasets* folder. 
 
 ## Source
 
