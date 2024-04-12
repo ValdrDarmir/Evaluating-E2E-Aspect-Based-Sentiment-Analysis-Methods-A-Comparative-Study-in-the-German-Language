@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Documents>
+  <Document id="1019559438980657153">
+    <relevance>true</relevance>
+    <sentiment>neutral</sentiment>
+    <Opinions />
+    <text>.@DB_Bahn EC1014 fährt vorhin aus München ab. Durchsage: "wir haben 10 Minuten Verspätung wegen einer gehbehinderten Frau im Zug." Geht's noch? #blaming</text>
+  </Document>
+  <Document id="1058043145135501312">
+    <relevance>true</relevance>
+    <sentiment>negative</sentiment>
+    <Opinions>
+      <Opinion category="SpaceMobilityGroups#Main" polarity="negative" from="246" to="288" target="das Gefühl in einer Sardinendose zu reisen" category_de="Platzangebot#Haupt" />
+    </Opinions>
+    <text>@BVG_Bus Danke für die Antwort. Vllt könnten zum FeierabendVerkehr mal größere Busse fahren? Die vielen Reisenden mit Gepäck, + Kinderwagen, +Rollstühle, Rollatoren +Gehbehinderte (also ich) +die Busnutzer ohne Einschränkungen haben wirklich oft das Gefühl in einer Sardinendose zu reisen.</text>
+  </Document>
+</Documents>
