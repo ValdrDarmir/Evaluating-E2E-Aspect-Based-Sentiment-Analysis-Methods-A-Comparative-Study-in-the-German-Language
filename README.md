@@ -51,8 +51,7 @@ Evaluate the model:
 ```bash
 python evaluate.py
 ```
-## 02 Relational Graph Attention Network [2]
-
+## 02 Relational Graph Attention Network [[2]](#source)
 **Requirements:**
 
 - Python 3.6.8
@@ -88,7 +87,7 @@ Run this command to train and evaluate the model.
 python run.py --gat_bert --embedding_type bert --output_dir data/output-gcn --dropout 0.3 --hidden_size 200 --learning_rate 5e-5
 ```
 
-## 03 Aspect-specific Graph Convolutional Network [3]
+## 03 Aspect-specific Graph Convolutional Network [[3]](#source)
 
 **Requirements**
 
