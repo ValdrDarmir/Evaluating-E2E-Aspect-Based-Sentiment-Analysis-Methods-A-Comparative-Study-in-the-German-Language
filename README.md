@@ -124,7 +124,7 @@ python dependency_tree.py
 ```
 
 - Download pretrained GloVe embeddings with this [link](https://www.deepset.ai/german-word-embeddings) and extract the file into glove/.
-- Train the model with the german corpus and evaluate it
+- Train the model with the german corpus and evaluate it.
 
 ```bash
 python train.py --model_name asgcn --dataset germeval --save True
