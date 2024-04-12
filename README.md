@@ -2,20 +2,33 @@
 
 ## Abstract
 
-There are various tasks to be solved in the area of aspect-based sentiment analysis (ABSA). 
-These include the end-to-end (E2E) ABSA task, aspect-opinion pair extraction, aspect category sentiment analysis and more.
-Specifically, in the E2E task, aspect pairs consisting of aspect term and polarity are determined.
-There are many methods in the English language that accomplish this task. 
-In other languages, such as German, such methods tend to be less analyzed or evaluated. 
-For this reason, we evaluated the performance of existing English aspect-based sentiment analysis methods in the German language.
-We selected three different methods, two graph neural network methods and a generative transformer method, and trained and evaluated them with two corpora, namely GermEval 2017 and MobASA.
-The graph-based approaches are a graph convolution network and a graph attention network.
-The generative method is based on OpenAI GPT 3.5 and uses text-to-text sentence completion.
-The best model (graph attention network) achieved an F1-score of 70.05 \% and 74.35 \% on GermEval 2017 and MobASA.
-The other graph-based method, the graph convolution network, achieved an F1-score of 57.28 \% and 72.14 \% on GermEval 2017 and MobASA.
-The weakest method did achieve an F1-score of 23.58 \% and 27.00 \% on GermEval 2017 and MobASA.
-While the generative transformer method with GPT 3.5 performed comparably worse than the benchmark in the paper by Simmering and Huoviala (2023) the graph neural network models consistently achieved state-of-the-art results.
-Overall, our work provides insights into the effectiveness of individual methods in this domain.
+There are various tasks to be solved in the area of aspect-based sen-
+timent analysis (ABSA). These include the end-to-end ABSA task,
+aspect-opinion pair extraction, aspect category sentiment analysis
+and more. Specifically, in the end-to-end task, aspect pairs consist-
+ing of aspect term and polarity are determined. There are many
+methods in the English language that accomplish this task. In other
+languages, such as German, such methods tend to be less analyzed
+or evaluated. For this reason, we evaluated the performance of
+existing English aspect-based sentiment analysis methods in the
+German language. We selected three different methods, two graph
+neural network methods, and a generative transformer method.
+Subsequently, we trained and evaluated these methods using two
+datasets: GermEval 2017 and MobASA. The graph-based approaches
+are a graph convolution network and a graph attention network.
+The generative method is based on OpenAI GPT 3.5 and uses text-
+to-text sentence completion. The best model (a relational graph
+attention network) achieved an F1-score of 70.05 % and 74.35 % on
+GermEval 2017 and MobASA. The other graph-based method, the
+graph convolution network, achieved an F1-score of 57.28 % and
+72.14 % on GermEval 2017 and MobASA. The weakest method did
+achieve an F1-score of 23.58 % and 27.00 % on GermEval 2017 and
+MobASA. While the generative transformer method with GPT 3.5
+performed comparably worse than the benchmark in the paper by
+Simmering and Huoviala (2023), the graph neural network models
+consistently achieved state-of-the-art results. Overall, our work
+provides insights into the effectiveness of the three aforementioned
+approaches for the end-to-end ABSA task in Germa
 
 
 
