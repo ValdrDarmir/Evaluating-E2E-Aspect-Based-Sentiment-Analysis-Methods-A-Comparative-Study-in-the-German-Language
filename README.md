@@ -32,7 +32,7 @@ Overall, our work provides insights into the effectiveness of individual methods
 Run the model:
 - Exchange the prompts and json file in the *main.py* (optional):
     - Change ```json_file``` in ```loadFunction()``` for a new json output schema.
-    - Change the ```prompt``` in ```loadPrompt()```for a new prompt.
+    - Change the ```prompt``` in ```loadPrompt()``` for a new prompt.
 
 - Change the corpus or model:
     - Exchange the corpus in the variable ```name_list``` in the function  ```def chatGPTcall()```
