@@ -68,7 +68,7 @@ Glove Embedding:
 
 BERT Embedding:
 
-- Download the pytorch version pre-trained ```bert-base-german-cased``` model and vocabulary from the [link](https://huggingface.co/google-bert/bert-base-german-cased) provided by huggingface. 
+- Download the pytorch version of the pre-trained ```bert-base-german-cased``` model and vocabulary from the [link](https://huggingface.co/google-bert/bert-base-german-cased) provided by huggingface. 
 - Then change the value of parameter ```--bert_model_dir``` to the directory of the bert model.
 
 Run the data preprocessing file after adjusting the paths to your train 
