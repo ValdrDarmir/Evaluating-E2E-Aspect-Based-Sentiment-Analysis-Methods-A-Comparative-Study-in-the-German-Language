@@ -26,7 +26,7 @@ performed comparably worse than the benchmark in the paper by
 Simmering and Huoviala (2023), the graph neural network models
 consistently achieved state-of-the-art results. Overall, our work
 provides insights into the effectiveness of the three aforementioned
-approaches for the end-to-end ABSA task in Germa
+approaches for the end-to-end ABSA task in German
 
 
 
